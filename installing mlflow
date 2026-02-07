@@ -1,0 +1,6 @@
+mlflow server \
+  --backend-store-uri postgresql://mlflow_user:drl123password@34.58.58.250:5432/mlflow \
+  --default-artifact-root /home/navin/mlflow_artifacts \
+  --host 0.0.0.0 \
+  --port 5000 \
+  --allowed-hosts 34.68.26.132,localhost,127.0.0.1
